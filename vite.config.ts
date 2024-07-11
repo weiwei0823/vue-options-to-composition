@@ -15,8 +15,8 @@ export default defineConfig({
 		},
 	},
 	worker: {
-        format: "es",
-    },
+		format: 'es',
+	},
 	plugins: [
 		vue(),
 		inheritAttrs(),

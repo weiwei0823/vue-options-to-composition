@@ -37,6 +37,17 @@ class Parser {
 		beforeMount: 'lifecycleCallback',
 		beforeUpdate: 'lifecycleCallback',
 		updated: 'lifecycleCallback',
+		onLoad: 'lifecycleCallback',
+		onShow: 'lifecycleCallback',
+		onReady: 'lifecycleCallback',
+		onHide: 'lifecycleCallback',
+		onUnload: 'lifecycleCallback',
+		onPullDownRefresh: 'lifecycleCallback',
+		onReachBottom: 'lifecycleCallback',
+		onShareAppMessage: 'lifecycleCallback',
+		onPageScroll: 'lifecycleCallback',
+		onResize: 'lifecycleCallback',
+		onTabItemTap: 'lifecycleCallback',
 	};
 
 	/**

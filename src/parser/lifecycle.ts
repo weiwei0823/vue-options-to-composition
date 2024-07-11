@@ -1,4 +1,4 @@
-type lifecycleType = undefined | 'created' | 'mounted' | 'beforeMount' | 'beforeUpdate' | 'updated' | 'beforeDestroy' | 'destroyed';
+type lifecycleType = undefined | 'created' | 'mounted' | 'beforeMount' | 'beforeUpdate' | 'updated' | 'beforeDestroy' | 'destroyed' | 'onLoad' | 'onShow' | 'onReady' | 'onHide' | 'onUnload' | 'onPullDownRefresh' | 'onReachBottom' | 'onShareAppMessage' | 'onPageScroll' | 'onResize' | 'onTabItemTap';
 
 class Lifecycle {
 	/**
